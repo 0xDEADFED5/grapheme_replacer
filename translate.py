@@ -57,6 +57,7 @@ CONSONANTS = [
 class Example:
     def __init__(self) -> None:
         v = VOWELS.copy()
+        # grapheme replacements like this.  the indexes are marked above
         v[1][1] = "ay"
         v[3][1] = "aw"
         v[4][1] = "oo"
